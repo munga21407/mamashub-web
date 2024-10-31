@@ -28,7 +28,7 @@ import MOH711 from './pages/MOH711';
 import Index from './pages/Index';
 import NurseDashboard from './pages/NurseDashboard';
 import OtherProblems from './pages/OtherProblems';
-
+import BroadClinicalReview from './pages/BroadClinicalReview';
 
 const appRoutes = [
   {
@@ -154,7 +154,11 @@ const appRoutes = [
   {
     path: '/other-baby-problems',
     element: OtherProblems,
-  }
+  },
+  {
+  path: "/broad-clinical-review",
+  element: BroadClinicalReview,
+}
 ];
 
 export default appRoutes;

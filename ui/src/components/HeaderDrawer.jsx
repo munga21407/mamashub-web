@@ -334,7 +334,7 @@ export default function HeaderDrawer({ children }) {
         {
           name: "Broad Clinical Review",
           icon: <i class="fa-solid fa-stethoscope"></i>,
-          path: "/broad-clincial-review",
+          path: "/broad-clinical-review",
           roles: ["ADMINISTRATOR", "FACILITY ADMINISTRATOR", "NURSE"],
         },
         {
